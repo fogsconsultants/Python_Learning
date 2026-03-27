@@ -1,0 +1,55 @@
+"""
+x = 10        # integer
+y = "Hello"   # string
+"""
+#2. numeric datas
+""""
+a = 10        # int (integer)
+b = 3.14      # float (decimal)
+c = 2 + 3j    # complex
+
+age = 30
+b = 3.14
+c = 2 + 5j
+
+print(type(c))
+"""
+# 3. String #Strings are immutable (cannot be changed directly)
+""""
+name = "Francis"
+message = 'Hello World'
+
+print(name)
+print(type(message))  # <class 'str'>
+"""
+
+# 4. Sequence Types - List (list) — Most Important - Mutable (can change)
+""""
+fruits = ["apple", "banana", "mango"]
+
+fruits[0]="orange"  # add item
+fruits=fruits+["kiwi"]
+print(fruits)
+"""
+# 5. Tuple (tuple) - Immutable list
+""""
+colors = ("red", "green", "blue")
+print(colors)
+colors[0]="white" #tuple does not support item assignment
+print(colors)
+"""
+# 6. Set (set) - Unique values only - use curly brackets - duplicates remove automatically
+"""
+numbers = {1, 2, 3, 3, 4, 5}
+print(numbers)  # {1, 2, 3, 4}
+"""
+# 7. Dictionary (dict) -Key-value pairs (VERY important for real-world use)
+
+person = {
+    "name": "Francis",
+    "age": 30,
+    "city": "Kochi",
+    "hobbies": ["cycling", "walking", "jogging", "swimming"]
+}
+
+print(hobbies(type[0]))  # Francis

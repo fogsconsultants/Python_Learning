@@ -1,0 +1,13 @@
+"""
+l=[23, 12, 'python', 'django']
+print(12 in l)
+print('Django' in l)
+
+
+name="Francis"
+print('i' in name)
+print('i' in 'Ebin')
+
+"""
+
+# is not

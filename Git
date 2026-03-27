@@ -1,0 +1,10 @@
+WHat is version control system
+Distributed version control system
+Centralised version control system
+What is git and github
+
+
+git init - Initialisation of git (Only first time)
+git add . - Track all files
+git commit -m "Correction made"
+git status - To know the status

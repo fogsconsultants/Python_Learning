@@ -1,0 +1,5 @@
+d="56"
+#print(type(d))
+
+j=(int(d))
+print(j)
