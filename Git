@@ -23,3 +23,14 @@ git status - To know the status
 
 
 New Changes made on 27032026
+
+
+Command	Purpose
+git branch	Lists all branches in your repo
+git branch	Creates a new branch
+git checkout	Switches to the branch
+git checkout -b	Creates and switches to a new branch
+git branch -d	Deletes a branch (safe delete)
+git branch -D	Force deletes a branch
+git merge	Merges the branch into your current branch
+git branch --show-current	Shows the branch you’re on
