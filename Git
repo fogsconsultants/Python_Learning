@@ -3,8 +3,20 @@ Distributed version control system
 Centralised version control system
 What is git and github
 
-
+git config --global user.name "username"
+git config --global user.name "email"
 git init - Initialisation of git (Only first time)
 git add . - Track all files
 git commit -m "Correction made"
+git branch -M master
+git remote add origin 'repolink'
+got push -u origin master
+git status - To know the status
+
+
+
+
+git add . - Track all files
+git commit -m "Correction made"
+got push -u origin master
 git status - To know the status
