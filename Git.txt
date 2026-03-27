@@ -10,7 +10,7 @@ git add . - Track all files
 git commit -m "Correction made"
 git branch -M master
 git remote add origin 'repolink'
-got push -u origin master
+git push -u origin master
 git status - To know the status
 
 
