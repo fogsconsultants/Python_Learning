@@ -35,9 +35,22 @@ for k in numbers:
     if k%5==0 and k%7==0:
         print(k,end=" ")
         
-        """
+        
 numbers=[23,4,12,9,0]
 result=0 
 for n in numbers:
     result=n+result
     print(f"sum of all numbers in {numbers} : ", result)
+
+"""
+
+
+# While Loop
+
+count=1
+while count<=10:
+    if count==5:
+        count+=1
+        continue 
+    print(count,end=" ")
+    count+=1
