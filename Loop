@@ -42,7 +42,7 @@ for n in numbers:
     result=n+result
     print(f"sum of all numbers in {numbers} : ", result)
 
-"""
+
 
 
 # While Loop
@@ -55,3 +55,84 @@ while count<=10:
         continue 
     print(count,end=" ")
     count+=1
+
+    
+# For loop
+
+
+for count in range(1,10):
+    if count==5:
+        continue 
+    print(count,end=" ")
+    count+=1
+
+
+    
+  
+
+
+
+#How many number you wish to enter - 1. Enter the number of elements you want to add: 5 - Find the sum of the number
+from unittest import result
+
+
+number=int(input("How many numbers you wish to enter: "))
+total=0
+for k in range(1,number+1):
+    num=int(input(f"{k}. Enter the number: "))
+    total=num+total
+
+
+print(f"Sum of the {number} numbers entered is: {total}")
+
+#enter the number: 5 - Output 1 x 5 = 5
+number=int(input("Enter the number: ")) 
+for k in range(1,11):
+    print(f"{number} x {k} = {number*k}")  
+
+    
+
+
+    number=int(input("Enter the number: "))
+    if number==0:
+        print("Exiting the program...")
+        break
+    for k in range(1,11):
+        print(f"{number} x {k} = {number*k}")
+
+
+while True:
+    a=int(input("Enter the First number : "))
+    b=int(input("Enter the Second number : "))
+    print("1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Dvision")
+    choice=int(input("Enter your choice : "))
+    match choice:
+
+        case 1:
+            print("Sum =", a+b)
+        case 2:
+            print("Subtract =", a-b)
+        case 3:
+            print(f"{a} * {b} = {a*b}")
+        case 4:
+            print((f"{a} / {b} = {a/b}"))
+        case _:
+            print("Invalid input, Please enter the value 1, 2, 3, 4")
+
+    s=input("Do you wish to continue? (y/n): ")
+    if s != 'y': 
+        break
+
+        """
+
+my_string=input("Enter a string : ")
+word_count=dict()
+for k in my_string:
+    if k in word_count:
+        word_count[k]=word_count[k]+1
+    else:
+        word_count[k]=1
+print(word_count)
+
+for v in word_count:
+    #print(f"{v} : {word_count[v]}")
