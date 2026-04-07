@@ -1,5 +1,6 @@
 
-"""Write a Python program that counts the number of vowels in a given string and prints the count for each vowel.
+"""
+Write a Python program that counts the number of vowels in a given string and prints the count for each vowel.
 
 my_string=input("Enter a string : ")
 vowels_count=dict()
@@ -14,7 +15,7 @@ print(vowels_count)
 
 for v in vowels_count:
     print(f"{v} : {vowels_count[v]}")
-"""
+
 
 # Write a python program to find out the number entered by the user is prime or not.
 
@@ -26,10 +27,39 @@ if number>1:
             is_prime=False
             print(f"{number} is not a prime number")
             break
-        else:            
             print(f"{number} is a prime number")
     if is_prime:
         print(f"{number} is a prime number")        
 
 else:
     print(f"{number} is not a prime number")
+
+#Write a python program to find prime numbers from a list of numbers.
+
+number_list=range(1, 100)
+for number in number_list:
+    is_prime=True
+    if number>1:
+        for k in range(2,int(number*0.5)+1):
+            if number%k==0:
+                is_prime=False
+                break
+        if is_prime:
+            print(f"{number} is a prime number")        
+
+    else:
+        print(f"{number} is not a prime number")
+
+"""
+for row in range(1,6):
+    for Space in range(5-row):
+        print(" ", end="")
+    for column in range(row):
+        print("*", end=" ")
+    print("")
+for row in range(1,6):
+    for column in range(row):
+        print(" ", end="")
+    for Space in range(5-row):
+        print("*", end=" ")
+    print("")
