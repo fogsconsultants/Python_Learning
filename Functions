@@ -1,0 +1,5 @@
+def greet(name, place):
+    print(f"Hello {name} from {place}!")
+
+greet("Alice", "New York")
+greet("Bob", "Los Angeles")
