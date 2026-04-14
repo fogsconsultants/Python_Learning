@@ -1,5 +1,31 @@
+""""
 def greet(name, place):
     print(f"Hello {name} from {place}!")
 
 greet("Alice", "New York")
 greet("Bob", "Los Angeles")
+
+
+
+
+def add(*numbers):
+    return sum(numbers)
+
+result = add(5, 3)
+print(result)
+
+
+def factorial(n):
+    if n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(4))
+
+"""
+def add(*numbers):
+    s=0
+    for k in numbers:
+        s+=k
+    print(s)
+add(5,3,9,2,1)
