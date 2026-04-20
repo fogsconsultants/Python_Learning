@@ -26,7 +26,7 @@ print(s1.intersection(s2))
 s = {1, 2, 3}
 print(s.pop())
 print(s)
-"""
+
 
 #union() method is used to get all the unique elements from both sets.
 s1 = {1, 2, 3}
@@ -37,3 +37,15 @@ print(s1.union(s2))
 s1 = {1, 2, 3}
 s2 = {2, 3, 4}
 print(s1.difference(s2))
+
+
+#Subset() method is used to check if one set is a subset of another set. It returns True if the set is a subset, otherwise it returns False.
+s1 = {1, 2}
+s2 = {1, 2, 3}
+print(s1.issubset(s2))
+"""
+#Superset() method is used to check if one set is a superset of another set. It returns True if the set is a superset, otherwise it returns False.
+s1 = {1, 2, 3}
+s2 = {1, 2}
+print(s1.issuperset(s2))
+
