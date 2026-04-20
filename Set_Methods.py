@@ -20,5 +20,20 @@ print(s)
 #intersection() method is used to get the common elements between two sets.
 s1 = {1, 2, 3}
 s2 = {2, 3, 4}
-print(s1.intersection(s2))"""
+print(s1.intersection(s2))
 
+#pop() method is used to remove and return an arbitrary element from the set. If the set is empty, it raises a KeyError.
+s = {1, 2, 3}
+print(s.pop())
+print(s)
+"""
+
+#union() method is used to get all the unique elements from both sets.
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+print(s1.union(s2))
+
+#difference() method is used to get the elements that are present in one set but not in the other.
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+print(s1.difference(s2))
