@@ -1,5 +1,5 @@
 
-"""#Dictionary methods
+#Dictionary methods
 d1 = {"name":"John", "age":30, "city":"New York"}
 print(d1)
 
@@ -47,7 +47,7 @@ d1 = {"name":"John", "age":30, "city":"New York"}
 d2 = {"name":"Alice", "age":25, "city":"Los Angeles"}
 d1.update(d2)
 print(d1)
-"""
+
 
 #setdefault() method is used to get the value of a specific key in the dictionary. If the key does not exist, it inserts the key with a specified value.
 d1 = {"name":"John", "age":30, "city":"New York"}

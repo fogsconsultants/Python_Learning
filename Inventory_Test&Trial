@@ -1,0 +1,20 @@
+# Initial Data
+inventory = [
+    (1, "Laptop", 10),
+    (2, "Mouse", 50),
+    (3, "Keyboard", 30)
+]
+
+orders = [
+    (101, "Laptop", 2),
+    (102, "Mouse", 5),
+    (103, "Laptop", 1),
+    (104, "Keyboard", 3),
+    (105, "Mouse", 5)
+]
+items=[]
+for i in inventory:
+    k=(i[1])
+    items.append(k)
+print(items)
+
