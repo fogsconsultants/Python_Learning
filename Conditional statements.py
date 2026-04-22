@@ -1,5 +1,4 @@
 
-"""
 if condition:
     statements
 else:
@@ -45,7 +44,7 @@ else:
     print("Invalid input, Please enter the value 1, 2, 3, 4")
 
     
-    """
+
 #Match - Case
 
 a=int(input("Enter the First number : "))

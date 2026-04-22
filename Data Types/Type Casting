@@ -1,3 +1,11 @@
+#Type casting is the process of converting a variable from one data type to another. In Python, you can use built-in functions like int(), float(), str(), etc., to perform type casting.
+example of type casting:
+int("123") # converts the string "123" to the integer 123
+float("3.14") # converts the string "3.14" to the float 3.14
+str(456) # converts the integer 456 to the string "456"     
+string to integer
+    
+
 d="56"
 #print(type(d))
 
