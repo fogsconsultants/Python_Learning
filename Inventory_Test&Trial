@@ -12,9 +12,20 @@ orders = [
     (104, "Keyboard", 3),
     (105, "Mouse", 5)
 ]
-items=[]
+
 for i in inventory:
     k=(i[1])
     items.append(k)
 print(items)
-
+l=0
+m=0
+n=0
+items=[]
+for j in orders:
+        if "Laptop" in j:
+            l+=j[2]
+        if "Mouse" in j:
+             m+=j[2]
+        if "Keyboard" in j:
+             n+=j[2]
+print("Total Quantity Ordered:", dict(Laptop=l, Mouse=m, Keyboard=n))
