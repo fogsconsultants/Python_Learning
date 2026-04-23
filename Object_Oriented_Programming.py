@@ -32,3 +32,6 @@ class Cars:
 
 car1=Cars("BMW","X5") #object of the class Cars
 car2=Cars("Audi","Q7") #object of the class Cars
+
+car1.display() # calling the method using object
+car2.display() # calling the method using object
