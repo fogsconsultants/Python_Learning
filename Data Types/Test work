@@ -1,0 +1,19 @@
+size=int(input("Enter the size:"))
+arr=[0]*size
+for k in range(size):
+    arr[k]=int(input("Enter the element:"))
+    
+frq={}
+for n in arr:
+    if n in frq:
+        frq[n]+=1
+    else:
+        frq[n]=1
+
+max_count=0
+for k in frq:
+    if frq[k]>max_count:
+        max_count = frq[k]
+        key=k
+print(frq)
+print(key, max_count)
